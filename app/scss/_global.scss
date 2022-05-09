@@ -1,0 +1,44 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: $color-dark;
+  background-image: url('../images/bg-body.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.body--hidden {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.section {}
+
+.title {}
+
+.btn {}
+
+.centred {
+  text-align: center;
+}
